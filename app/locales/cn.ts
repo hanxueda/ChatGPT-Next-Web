@@ -1,7 +1,7 @@
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页填写授权码。获取访问码请联系【微信:hanxueda】",
+    Unauthorized: "现在是未授权状态，请在设置页填写授权码。获取授权码请联系微信:hanxueda",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -56,7 +56,7 @@ const cn = {
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
       FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
+      GoToUpdate: "",
     },
     SendKey: "发送键",
     Theme: "主题",
